@@ -7,28 +7,28 @@ namespace FactoryMethod_ConsolleApp
         public void Main()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Додаток: запущено з ConcreteCreator1.");
+            Console.WriteLine("Додаток: запущено з Client.Main() ---> new ConcreteCreator1.");
             Console.ResetColor();
             ClientCode(new ConcreteCreator1());
 
-            Console.WriteLine("");
+            Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Додаток: запущено з ConcreteCreator2.");
+            Console.WriteLine("Додаток: запущено з Client.Main() ---> new ConcreteCreator2.");
             Console.ResetColor();
             ClientCode(new ConcreteCreator2());
 
-            Console.WriteLine("");
+            Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Додаток: запущено з ConcreteCreator3.");
+            Console.WriteLine("Додаток: запущено з Client.Main() ---> new ConcreteCreator3.");
             Console.ResetColor();
             ClientCode(new ConcreteCreator3());
 
-            Console.WriteLine("");
+            Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Додаток: запущено з ConcreteCreator4.");
+            Console.WriteLine("Додаток: запущено з Client.Main() ---> new ConcreteCreator4.");
             Console.ResetColor();
             ClientCode(new ConcreteCreator4());
 
